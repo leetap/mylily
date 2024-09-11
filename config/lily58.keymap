@@ -22,11 +22,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                &kp N6  &kp N7         &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                                 &kp Y   &kp U          &kp I      &kp O    &kp P     &kp BACKSLASH
-&kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                                 &kp H   &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z   &kp X   &kp C     &kp V     &kp B   &kp LBKT           &kp RBKT   &kp N   &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RETURN
-                                  &kp LALT  &kp LGUI  &mo 1   &mt ENTER SPACE    &kp SPACE  &mo 2   &kp BACKSPACE  &mo 3
+&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                            &kp N6       &kp N7         &kp N8     &kp N9   &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                                             &kp Y        &kp U          &kp I      &kp O    &kp P     &kp BACKSLASH
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                                             &kp H        &kp J          &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z   &kp X   &kp C     &kp V     &kp B        &kp LBKT           &kp RBKT          &kp N        &kp M          &kp COMMA  &kp DOT  &kp FSLH  &kp RETURN
+                                  &kp LALT  &kp LGUI  &lt 1 SPACE  &mt ENTER SPACE    &mt RETURN SPACE  &lt 2 SPACE  &kp BACKSPACE  &mo 3
             >;
 
             label = "Base";
@@ -42,7 +42,7 @@
 
             display-name = "Lower";
             bindings = <
-&kp TILDE         &kp F1             &kp F2          &kp F3           &kp F4        &kp F5                    &none     &none      &none     &none     &none      &none
+&kp TILDE         &kp F1             &kp F2          &kp F3           &kp F4        &kp F5                    &none     &none      &none     &none     &none      &kp DELETE
 &none             &kp PAGE_UP        &kp UP_ARROW    &kp PAGE_DOWN    &none         &kp F6                    &kp F7    &kp F8     &kp F9    &kp F10   &kp F11    &kp F12
 &kp GRAVE         &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT        &kp END       &none                     &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &kp TILDE  &kp UNDERSCORE
 &kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp CAPSLOCK  &none   &none     &none   &none     &kp MINUS  &kp PLUS  &kp LBRC  &kp RBRC   &kp PIPE
