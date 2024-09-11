@@ -43,13 +43,13 @@
             display-name = "Navigation";
             bindings = <
 &kp TILDE  &kp F1             &kp F2          &kp F3           &kp F4        &kp F5                                                     &kp F6    &kp F7          &kp F8        &kp F9     &kp F10    &kp MINUS
-&trans     &none              &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_UP   &kp INSERT                                                 &kp F11   &kp F8          &kp UP_ARROW  &kp F13    &kp F14    &trans
+&trans     &none              &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_UP   &kp INSERT                                                 &kp F11   &kp F12         &kp UP_ARROW  &kp F13    &kp F14    &trans
 &trans     &kp GRAVE          &kp LEFT_ARROW  &kp DOWN         &kp RIGHT     &kp END                                                    &kp AMPS  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &kp TILDE  &trans
 &trans     &kp C_VOLUME_DOWN  &kp K_MUTE      &kp C_VOLUME_UP  &kp CAPSLOCK  &kp HOME    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PLUS  &kp MINUS       &kp EQUAL     &kp LBRC   &kp RBRC   &trans
                                               &trans           &trans        &trans      &trans                  &trans                 &trans    &kp DEL         &none
             >;
 
-            label = "Navigation";
+            label = "Nav";
         };
 
         macro_layer {
