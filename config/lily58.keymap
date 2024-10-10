@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
@@ -26,7 +27,7 @@
 &kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                                      &kp Y      &kp U       &kp I      &kp O    &kp P     &kp BACKSLASH
 &kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                                      &kp H      &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LEFT_SHIFT    &kp Z   &kp X   &kp C     &kp V     &kp B      &kp LBKT           &kp RBKT     &kp N      &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp RETURN
-                                  &kp LALT  &kp LGUI  &kp SPACE  &lt 1 BACKSPACE    &lt 1 ENTER  &kp SPACE  &kp DELETE  &mo 2
+                                  &kp LALT  &kp LGUI  &kp SPACE  &lt 2 BACKSPACE    &lt 1 ENTER  &kp SPACE  &kp DELETE  &mo 3
             >;
 
             label = "Base";
@@ -42,14 +43,26 @@
 
             display-name = "Nav";
             bindings = <
-&kp TILDE  &kp F1    &kp F2          &kp F3        &kp F4     &kp F5                                                 &kp F6     &kp F7          &kp F8        &kp F9         &kp F10    &kp MINUS
-&trans     &none     &none           &kp UP_ARROW  &none      &none                                                  &kp F11    &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &none      &kp END
-&trans     &kp CAPS  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none                                                  &kp AMPS   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp TILDE  &kp HOME
-&trans     &none     &none           &none         &none      &none   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp MINUS  &kp PLUS        &kp EQUAL     &kp LBRC       &kp RBRC   &trans
-                                     &trans        &trans     &trans  &trans                  &trans                 &trans     &kp DEL         &tog 1
+&kp TILDE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                                 &kp F6     &kp F7          &kp F8        &kp F9         &kp F10    &trans
+&trans     &none   &none   &none   &none   &none                                                  &none      &kp PAGE_UP     &kp UP_ARROW  &kp PAGE_DOWN  &none      &kp END
+&trans     &none   &none   &none   &none   &none                                                  &kp AMPS   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT      &kp TILDE  &kp HOME
+&trans     &none   &none   &none   &none   &none   &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp MINUS  &kp PLUS        &kp EQUAL     &kp LBRC       &kp RBRC   &trans
+                           &trans  &trans  &trans  &trans                  &trans                 &trans     &kp DEL         &tog 1
             >;
 
             label = "Nav";
+        };
+
+        Num_Layer {
+            bindings = <
+&trans  &kp EXCL          &kp AT             &kp HASH              &kp DOLLAR             &kt PERCENT                    &kp PAGE_UP    &kp N1  &kp N2  &kp N3      &none   &trans
+&trans  &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                       &kp PAGE_DOWN  &kp N4  &kp N5  &kp N6      &none   &none
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                      &kp HOME       &kp N7  &kp N8  &kp N9      &trans  &trans
+&trans  &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL    &none     &none   &kp END        &none   &kp N0  &kp DELETE  &none   &trans
+                                             &trans                &trans                 &trans       &trans    &trans  &trans         &trans  &trans
+            >;
+
+            label = "Num";
         };
 
         macro_layer {
