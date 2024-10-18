@@ -68,7 +68,7 @@
         macro_layer {
             display-name = "Macro";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                    &none      &none   &none   &none  &kp DEL    &kp PRINTSCREEN
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                    &none      &none   &none   &none  &none      &kp PRINTSCREEN
 &bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                           &kp LC(Y)  &none   &none   &none  &kp LC(P)  &none
 &none           &none         &none         &none         &none         &none                           &none      &none   &none   &none  &none      &none
 &none           &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)     &none         &none     &none   &none      &none   &none   &none  &none      &kp RET
