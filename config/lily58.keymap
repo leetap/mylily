@@ -55,11 +55,11 @@
 
         Num_Layer {
             bindings = <
-&trans  &kp EXCL          &kp AT             &kp HASH              &kp DOLLAR             &kt PERCENT                    &kp PAGE_UP    &kp N1  &kp N2  &kp N3      &none   &trans
-&trans  &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                       &kp PAGE_DOWN  &kp N4  &kp N5  &kp N6      &none   &none
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                      &kp HOME       &kp N7  &kp N8  &kp N9      &trans  &trans
-&trans  &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL    &none     &none   &kp END        &none   &kp N0  &kp DELETE  &none   &trans
-                                             &trans                &trans                 &trans       &trans    &trans  &trans         &trans  &trans
+&trans  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                       &kp PAGE_UP    &kp N1  &kp N2  &kp N3      &none   &trans
+&trans  &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                     &kp PAGE_DOWN  &kp N4  &kp N5  &kp N6      &none   &none
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                    &kp HOME       &kp N7  &kp N8  &kp N9      &trans  &trans
+&trans  &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &none     &none   &kp END        &none   &kp N0  &kp DELETE  &none   &trans
+                                             &trans                &trans                 &trans     &trans    &trans  &trans         &trans  &trans
             >;
 
             label = "Num";
