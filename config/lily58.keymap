@@ -43,32 +43,32 @@
 &kp TAB         &kp Q   &kp W   &kp E         &kp R      &kp T                                                    &kp Y          &kp U      &kp I          &kp O    &kp P      &kp DEL
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F      &kp G                                                    &kp H          &kp J      &kp K          &kp L    &kp SEMI   &kp BACKSLASH
 &kp LCTRL       &kp Z   &kp X   &kp C         &kp V      &kp B     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N          &kp M      &kp COMMA      &kp DOT  &kp MINUS  &kp PRINTSCREEN
-                                &lt 1 K_COPY  &kp GLOBE  &kp LCMD  &kp SPACE               &kp ENTER              &kp RIGHT_ALT  &kp RCTRL  &lt 0 K_PASTE
+                                &lt 2 K_COPY  &kp GLOBE  &kp LCMD  &kp SPACE               &kp ENTER              &kp RIGHT_ALT  &kp RCTRL  &lt 1 K_PASTE
             >;
 
             label = "Base";
         };
 
-        Sym_Nav_Layer {
+        Symbols {
             bindings = <
 &kp TILDE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6    &kp F7    &kp F8        &kp F9     &kp F10    &kp BACKSPACE
 &trans     &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS   &trans    &kp UP_ARROW  &trans     &kp LC(C)  &kp PG_UP
 &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(V)  &kp PAGE_DOWN
 &trans     &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END   &trans    &kp LT        &kp GT     &kp LC(X)  &kp PRINTSCREEN
-                                                &trans                &kp GLOBE              &trans     &kp SPACE    &kp ENTER  &trans    &trans    &trans
+                                                &mo 0                 &kp GLOBE              &kp LWIN   &kp SPACE    &kp ENTER  &trans    &trans    &mo 2
             >;
 
-            label = "Sym_Nav";
+            label = "Symbol";
         };
 
         macro_layer {
             display-name = "Macro";
             bindings = <
-&bt BT_CLR      &trans  &trans  &trans  &trans  &trans                    &none   &none   &none   &none  &none  &trans
-&bt BT_CLR_ALL  &trans  &trans  &none   &none   &none                     &none   &none   &none   &none  &none  &none
-&none           &none   &none   &none   &none   &none                     &none   &none   &none   &none  &none  &none
-&none           &none   &none   &none   &none   &none   &none     &none   &none   &none   &none   &none  &none  &trans
-                                &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+&bt BT_CLR      &trans  &trans  &trans  &trans  &trans                          &none   &none   &none  &none  &none  &trans
+&bt BT_CLR_ALL  &trans  &trans  &none   &none   &none                           &none   &none   &none  &none  &none  &none
+&none           &none   &none   &none   &none   &none                           &none   &none   &none  &none  &none  &none
+&none           &none   &none   &none   &none   &none   &none        &none      &none   &none   &none  &none  &none  &trans
+                                &mo 1   &trans  &trans  &kp SPACE    &kp ENTER  &trans  &trans  &mo 0
             >;
 
             label = "Macro";
