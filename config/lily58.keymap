@@ -39,11 +39,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                                   &kp N6  &kp N7         &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp E   &kp R      &kp T                                                    &kp Z   &kp U          &kp I      &kp O    &kp P      &kp DEL
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F      &kp G                                                    &kp H   &kp J          &kp K      &kp L    &kp SEMI   &kp BACKSLASH
-&kp LCTRL       &kp Y   &kp X   &kp C   &kp V      &kp B     &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp N   &kp M          &kp COMMA  &kp DOT  &kp MINUS  &kp PRINTSCREEN
-                                &mo 2   &kp GLOBE  &kp LCMD  &kp SPACE               &kp ENTER              &mo 1   &kp RIGHT_ALT  &kp RCTRL
+&kp ESC         &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                            &kp N6  &kp N7         &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp E   &kp R      &kp T                             &kp Z   &kp U          &kp I      &kp O    &kp P      &kp DEL
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp F      &kp G                             &kp H   &kp J          &kp K      &kp L    &kp SEMI   &kp BACKSLASH
+&kp LCTRL       &kp Y   &kp X   &kp C   &kp V      &kp B     &kp LC(C)    &kp LC(V)  &kp N   &kp M          &kp COMMA  &kp DOT  &kp MINUS  &kp PRINTSCREEN
+                                &mo 2   &kp GLOBE  &kp LCMD  &kp SPACE    &kp ENTER  &mo 1   &kp RIGHT_ALT  &kp RCTRL
             >;
 
             label = "Base";
@@ -51,11 +51,11 @@
 
         Symbols {
             bindings = <
-&kp TILDE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6    &kp F7    &kp F8        &kp F9     &kp F10    &kp BACKSPACE
-&trans     &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS   &trans    &kp UP_ARROW  &trans     &kp LC(C)  &kp PG_UP
-&trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME  &kp LEFT  &kp DOWN      &kp RIGHT  &kp LC(V)  &kp PAGE_DOWN
-&trans     &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END   &trans    &kp LT        &kp GT     &kp LC(X)  &kp ENTER
-                                                &mo 0                 &kp GLOBE              &kp LWIN   &kp SPACE    &kp ENTER  &trans    &trans    &mo 2
+&kp TILDE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7             &kp F8        &kp F9            &kp F10   &kp BACKSPACE
+&trans     &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp LC(C)  &kp DOUBLE_QUOTES  &kp UP_ARROW  &kp SINGLE_QUOTE  &kp INS   &kp PG_UP
+&trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp LC(V)  &kp LEFT           &kp DOWN      &kp RIGHT         &kp DEL   &kp PAGE_DOWN
+&trans     &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp LC(Z)  &trans             &kp LT        &kp GT            &kp HOME  &kp ENTER
+                                                &mo 0                 &kp GLOBE              &kp LWIN   &kp SPACE    &kp ENTER  &trans     &trans             &mo 2
             >;
 
             label = "Symbol";
