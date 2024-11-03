@@ -51,10 +51,10 @@
 
         Symbols {
             bindings = <
-&kp TILDE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7             &kp F8        &kp F9            &kp F10   &kp BACKSPACE
-&trans     &trans            &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp LC(C)  &kp DOUBLE_QUOTES  &kp UP_ARROW  &kp SINGLE_QUOTE  &kp INS   &kp PG_UP
-&trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp LC(V)  &kp LEFT           &kp DOWN      &kp RIGHT         &kp DEL   &kp PAGE_DOWN
-&trans     &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp LC(X)  &trans             &kp LT        &kp GT            &kp HOME  &kp ENTER
+&kp TILDE  &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7             &kp F8        &kp F9            &kp F10       &kp BACKSPACE
+&trans     &trans            &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp LC(C)  &kp DOUBLE_QUOTES  &kp UP_ARROW  &kp SINGLE_QUOTE  &kp QUESTION  &kp PG_UP
+&trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp LC(V)  &kp LEFT           &kp DOWN      &kp RIGHT         &kp INS       &kp PAGE_DOWN
+&trans     &kp CARET         &kp AMPS           &kp BACKSLASH         &kp SLASH              &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp LC(X)  &trans             &kp LT        &kp GT            &kp HOME      &kp ENTER
                                                 &mo 0                 &kp GLOBE              &kp LWIN   &kp SPACE    &kp ENTER  &trans     &trans             &mo 2
             >;
 
