@@ -43,7 +43,7 @@
 &kp TAB         &kp Q           &kp W           &kp F             &kp P         &kp B                                             &kp J   &kp L        &kp U              &kp Y            &kp SEMICOLON    &kp MINUS
 &kp LEFT_SHIFT  &mt A LEFT_WIN  &mt R LEFT_ALT  &mt S LEFT_SHIFT  &mt T LCTRL   &kp G                                             &kp M   &mt N RCTRL  &mt E RIGHT_SHIFT  &mt I RIGHT_ALT  &mt O RIGHT_WIN  &kp APOS
 &kp LCTRL       &kp Z           &kp X           &kp C             &kp D         &kp V          &kp LC(C)               &kp LC(V)  &kp K   &kp H        &kp COMMA          &kp DOT          &kp SLASH        &kp GLOBE
-                                                &mo 2             &kp LEFT_WIN  &kp BACKSPACE  &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 1   &mo 2        &kp LEFT_ALT
+                                                &kp ESCAPE        &kp LEFT_WIN  &kp BACKSPACE  &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 1   &mo 2        &kp LEFT_ALT
             >;
 
             label = "Base";
@@ -55,7 +55,7 @@
 &kp TAB         &trans            &kp EQUAL          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                      &kp STAR       &trans    &kp UP_ARROW  &trans     &trans   &trans
 &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                     &kp KP_DIVIDE  &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
 &kp LCTRL       &trans            &trans             &trans                &trans                 &trans     &kp LC(Z)               &kp LC(Y)  &trans         &trans    &trans        &trans     &trans   &trans
-                                                     &mo 2                 &kp GLOBE              &kp LWIN   &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0          &mo 2     &trans
+                                                     &kp ESCAPE            &kp GLOBE              &kp LWIN   &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0          &mo 2     &trans
             >;
 
             label = "Symbol";
