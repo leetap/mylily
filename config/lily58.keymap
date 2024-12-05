@@ -10,14 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / { behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            quick-tap-ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
 
     macros {
         Undo: Undo {
@@ -35,7 +27,9 @@
         };
     };
 
-    keymap {
+    
+macros {};
+keymap {
         compatible = "zmk,keymap";
 
         default_layer {
@@ -48,24 +42,24 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC         &kp N1          &kp N2          &kp N3            &kp N4        &kp N5                                        &kp N6  &kp N7       &kp N8        &kp N9           &kp N0                  &kp PRINTSCREEN
-&kp TAB         &kp Q           &kp W           &kp E             &kp R         &kp T                                         &kp Z   &kp U        &kp I         &kp O            &kp P                   &kp MINUS
-&kp LEFT_SHIFT  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G                                         &kp H   &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &mt LEFT_WIN SEMICOLON  &kp APOS
-&kp LCTRL       &kp Y           &kp X           &kp C             &kp V         &kp B          &kp LC(C)           &kp LC(V)  &kp N   &kp M        &kp COMMA     &kp DOT          &kp SLASH               &kp GLOBE
-                                                &kp ESCAPE        &kp LEFT_WIN  &kp BACKSPACE  &mt LSHIFT SPACE    &kp ENTER  &mo 1   &mo 2        &kp LEFT_ALT
-            >;
+&kp ESC         &kp N1          &kp N2          &kp N3            &kp N4        &kp N5                                  &kp N6  &kp N7       &kp N8        &kp N9           &kp N0                  &kp PRINTSCREEN
+&kp TAB         &kp Q           &kp W           &kp E             &kp R         &kp T                                   &kp Z   &kp U        &kp I         &kp O            &kp P                   &kp MINUS
+&kp LEFT_SHIFT  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F   &kp G                                   &kp H   &mt RCTRL J  &mt RSHIFT K  &mt RIGHT_ALT L  &mt LEFT_WIN SEMICOLON  &kp APOS
+&kp LCTRL       &kp Y           &kp X           &kp C             &kp V         &kp B    &kp LC(C)           &kp LC(V)  &kp N   &kp M        &kp COMMA     &kp DOT          &kp SLASH               &kp GLOBE
+                                                &kp ESCAPE        &kp LEFT_WIN  &kp DEL  &mt LSHIFT SPACE    &kp ENTER  &mo 1   &mo 2        &kp LEFT_ALT
+>;
 
             label = "Base";
         };
 
         Symbols {
             bindings = <
-&kp TILDE       &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                                        &kp F6         &kp F7    &kp F8        &kp F9     &kp F10  &trans
-&kp TAB         &trans            &kp EQUAL          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                      &kp STAR       &trans    &kp UP_ARROW  &trans     &trans   &trans
-&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                     &kp KP_DIVIDE  &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
-&kp LCTRL       &trans            &trans             &trans                &trans                 &trans     &kp LC(Z)               &kp LC(Y)  &trans         &trans    &trans        &trans     &trans   &trans
-                                                     &kp ESCAPE            &kp GLOBE              &kp DEL    &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0          &mo 2     &trans
-            >;
+&kp TILDE       &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                                 &kp F6         &kp F7    &kp F8        &kp F9     &kp F10  &trans
+&kp TAB         &trans            &kp EQUAL          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                               &kp STAR       &trans    &kp UP_ARROW  &trans     &trans   &trans
+&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                              &kp KP_DIVIDE  &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
+&kp LCTRL       &trans            &trans             &trans                &trans                 &trans     &kp LC(Z)        &kp LC(Y)  &trans         &trans    &trans        &trans     &trans   &trans
+                                                     &kp ESCAPE            &kp GLOBE              &kp DEL    &kp BACKSPACE    &kp ENTER  &mo 0          &mo 2     &trans
+>;
 
             label = "Symbol";
         };
@@ -78,7 +72,7 @@
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                                     &kp NUMBER_6      &kp N7      &kp N8             &kp N9           &kp N0  &none
 &kp LCTRL       &trans        &trans        &none         &none         &none   &none                   &none      &none             &trans      &trans             &trans           &none   &trans
                                             &trans        &trans        &trans  &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0             &mo 2       &trans
-            >;
+>;
 
             label = "Macro";
         };
