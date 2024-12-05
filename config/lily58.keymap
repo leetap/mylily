@@ -55,7 +55,7 @@
 &kp TAB         &trans            &kp EQUAL          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                      &kp STAR       &trans    &kp UP_ARROW  &trans     &trans   &trans
 &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                     &kp KP_DIVIDE  &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
 &kp LCTRL       &trans            &trans             &trans                &trans                 &trans     &kp LC(Z)               &kp LC(Y)  &trans         &trans    &trans        &trans     &trans   &trans
-                                                     &kp ESCAPE            &kp GLOBE              &kp LWIN   &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0          &mo 2     &trans
+                                                     &kp ESCAPE            &kp GLOBE              &kp DEL    &mt SPACE LEFT_SHIFT    &kp ENTER  &mo 0          &mo 2     &trans
             >;
 
             label = "Symbol";
