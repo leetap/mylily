@@ -23,11 +23,11 @@
 
             display-name = "Alphas";
             bindings = <
-&kp ESC           &kp N1          &kp N2          &kp N3            &kp N4       &kp N5                                        &kp N6  &kp N7       &kp N8             &kp N9           &kp N0          &kp LG(PERIOD)
-&kp TAB           &kp Q           &kp W           &kp E             &kp R        &kp T                                         &kp Z   &kp U        &kp I              &kp O            &kp SEMI        &kp BACKSLASH
-&kp LEFT_CONTROL  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt RCTRL F  &kp G                                         &kp H   &mt RCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt LEFT_WIN P  &kp SQT
-&kp LEFT_SHIFT    &kp Y           &kp X           &kp C             &kp V        &kp B    &kp LC(C)               &kp LC(V)    &kp N   &kp M        &kp COMMA          &kp DOT          &kp FSLH        &mt RIGHT_SHIFT RETURN
-                                                  &kp LALT          &kp LGUI     &kp DEL  &mt LEFT_SHIFT SPACE    &lt 2 ENTER  &mo 1   &mo 2        &kp ESCAPE
+&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                           &kp N6  &kp N7  &kp N8      &kp N9   &kp N0    &kp LG(PERIOD)
+&kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                            &kp Z   &kp U   &kp I       &kp O    &kp SEMI  &kp BACKSLASH
+&kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                            &kp H   &kp J   &kp K       &kp L    &kp P     &kp SQT
+&kp LEFT_SHIFT    &kp Y   &kp X   &kp C     &kp V     &kp B    &kp LC(C)    &kp LC(V)  &kp N   &kp M   &kp COMMA   &kp DOT  &kp FSLH  &kp RET
+                                  &kp LALT  &kp LGUI  &kp DEL  &kp SPACE    &kp RET    &mo 1   &mo 2   &kp ESCAPE
             >;
 
             label = "Alphas";
