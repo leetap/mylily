@@ -23,11 +23,11 @@
 
             display-name = "Alphas";
             bindings = <
-&kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                              &kp N6     &kp N7             &kp N8     &kp N9   &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                               &kp Z      &kp U              &kp I      &kp O    &kp P     &kp BACKSLASH
-&kp LEFT_CONTROL  &kp A   &kp S   &kp D     &kp F     &kp G                               &kp H      &kp J              &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Y   &kp X   &kp C     &kp V     &kp B      &kp LBKT    &kp RBKT     &kp N      &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT RETURN
-                                  &kp LALT  &kp LGUI  &kp SPACE  &mo 1       &lt 0 ENTER  &kp SPACE  &kp RIGHT_CONTROL  &mo 2
+&kp ESC           &kp N1          &kp N2          &kp N3            &kp N4       &kp N5                                        &kp N6  &kp N7             &kp N8     &kp N9   &kp N0    &kp PRINTSCREEN
+&kp TAB           &kp Q           &kp W           &kp E             &kp R        &kp T                                         &kp Z   &kp U              &kp I      &kp O    &kp SEMI  &kp BACKSLASH
+&kp LEFT_CONTROL  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt RCTRL F  &kp G                                         &kp H   &kp J              &kp K      &kp L    &kp P     &kp SQT
+&kp LEFT_SHIFT    &kp Y           &kp X           &kp C             &kp V        &kp B    &kp LC(C)               &kp LC(V)    &kp N   &kp M              &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_SHIFT RETURN
+                                                  &kp LALT          &kp LGUI     &kp DEL  &mt LEFT_SHIFT SPACE    &lt 2 ENTER  &mo 1   &kp RIGHT_CONTROL  &mo 2
             >;
 
             label = "Alphas";
@@ -35,11 +35,11 @@
 
         Sym_Nav_Layer {
             bindings = <
-&kp BACKSPACE  &kp F1             &kp F2             &kp F3                &kp F4                 &kt F5                             &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
-&kp GRAVE      &kp DOUBLE_QUOTES  &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                           &kp INS    &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
-&kp LCTRL      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                          &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
-&kp LSHFT      &kp CARET          &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp ENTER
-                                                     &kp LALT              &kp LGUI               &kp SPACE  &kp ENTER    &tog 0     &kp SPACE  &kp RCTRL        &mo 2
+&kp BACKSPACE  &kp F1             &kp F2             &kp F3                &kp F4                 &kt F5                                &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
+&kp TAB        &kp DOUBLE_QUOTES  &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                              &kp EQUAL  &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
+&kp LCTRL      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                             &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
+&kp LSHFT      &kp CARET          &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp ENTER
+                                                     &kp LALT              &kp LGUI               &kp ESCAPE    &kp DEL      &kp ENTER  &kp SPACE  &kp RCTRL        &mo 2
             >;
 
             label = "Sym_Nav";
@@ -48,11 +48,11 @@
         macro_layer {
             display-name = "Macro";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none  &none  &none
-&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none           &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none           &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
-                                            &none         &none         &none         &none    &none  &none  &none  &none
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                  &none         &none   &none   &none   &none   &none
+&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                         &none         &none   &none   &none   &none   &none
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &none
+&kp LCTRL       &none         &none         &none         &none         &none         &none    &none  &none         &none   &none   &none   &none   &none
+                                            &none         &none         &none         &none    &none  &none         &none   &none
             >;
 
             label = "Macro";
