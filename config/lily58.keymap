@@ -35,11 +35,11 @@
 
         Sym_Nav_Layer {
             bindings = <
-&kp BACKSPACE   &kp F1             &kp F2             &kp F3                &kp F4                 &kt F5                                   &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp DEL
-&kp TAB         &kp DOUBLE_QUOTES  &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                 &kp EQUAL  &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
-&kp LEFT_SHIFT  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
-&kp RCTRL       &kp CARET          &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION    &kp LC(Z)     &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp DEL
-                                                      &kp LALT              &kp LGUI               &kp LEFT_SHIFT  &kp ESCAPE    &kp ENTER  &mo 0      &mo 2            &kp ESCAPE
+&kp BACKSPACE   &kp F1             &kp F2             &kp F3                &kp F4                 &kt F5                                &kp F6     &kp F7           &kp F8        &kp F9         &kp F10    &kp GLOBE
+&kp TAB         &kp DOUBLE_QUOTES  &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                              &kp EQUAL  &kp PAGE_UP      &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(C)  &kp BSLH
+&kp LEFT_SHIFT  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                             &kp HOME   &kp LEFT         &kp DOWN      &kp RIGHT      &kp LC(V)  &kp APOS
+&kp RCTRL       &kp CARET          &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp QUESTION  &kp LC(Z)    &kp LC(Y)  &kp END    &kp PRINTSCREEN  &kp LT        &kp GT         &kp LC(X)  &kp DEL
+                                                      &kp LALT              &kp LGUI               &kp ESCAPE    &kp SPACE    &kp ENTER  &mo 0      &mo 2            &kp ESCAPE
             >;
 
             label = "Sym_Nav";
