@@ -23,11 +23,11 @@
 
             display-name = "Alphas";
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4      &kp N5                                                    &kp N6  &kp N7  &kp N8      &kp N9   &kp N0         &kp LG(PERIOD)
-&kp TAB         &kp Q   &kp W   &kp E     &kp R       &kp T                                                     &kp Z   &kp U   &kp I       &kp O    &kp SLASH      &kp BACKSLASH
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D     &kp F       &kp G                                                     &kp H   &kp J   &kp K       &kp L    &kp P          &kp SLASH
-&kp LCTRL       &kp Y   &kp X   &kp C     &kp V       &kp B                  &kp LC(C)               &kp LC(V)  &kp N   &kp M   &kp COMMA   &kp DOT  &kp BACKSPACE  &kp APOS
-                                &kp LALT  &kp ESCAPE  &mt LEFT_ALT LEFT_GUI  &mt LEFT_SHIFT SPACE    &kp RET    &mo 1   &mo 2   &kp ESCAPE
+&kp LG(PERIOD)  &kp N1       &kp N2  &kp N3    &kp N4      &kp N5                                                    &kp N6  &kp N7  &kp N8      &kp N9   &kp N0         &kp MINUS
+&kp TAB         &kp Q        &kp W   &kp F     &kp P       &kp B                                                     &kp J   &kp L   &kp U       &kp Y    &kp SEMICOLON  &kp BACKSLASH
+&kp LEFT_SHIFT  &kp A        &kp S   &kp S     &kp T       &kp G                                                     &kp M   &kp N   &kp E       &kp I    &kp O          &kp APOS
+&kp LCTRL       &mt LCTRL Z  &kp X   &kp C     &kp D       &kp V                  &kp LC(C)               &kp LC(V)  &kp K   &kp H   &kp COMMA   &kp DOT  &kp SLASH      &kp APOS
+                                     &kp LALT  &kp ESCAPE  &mt LEFT_ALT LEFT_GUI  &mt LEFT_SHIFT SPACE    &kp RET    &mo 1   &mo 2   &kp ESCAPE
             >;
 
             label = "Alphas";
@@ -36,7 +36,7 @@
         Sym_Nav_Layer {
             bindings = <
 &kp BACKSPACE   &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                                                    &kp F6           &kp F7       &kp F8        &kp F9         &kp F10            &kp GLOBE
-&kp TAB         &kp TILDE         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                                  &kp STAR         &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(BACKSLASH)  &kp BSLH
+&kp TAB         &kp TAB           &kp ASTRK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                                  &kp STAR         &kp PAGE_UP  &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(BACKSLASH)  &kp BSLH
 &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                                 &kp APOS         &kp LEFT     &kp DOWN      &kp RIGHT      &kp MINUS          &kp LC(X)
 &kp RCTRL       &kp CARET         &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp EQUAL              &kp LC(Z)               &kp LC(Y)  &kp PRINTSCREEN  &kp DEL      &kp COLON     &kp SEMI       &kp BACKSPACE      &kp DOUBLE_QUOTES
                                                      &kp LALT              &kp ESCAPE             &mt LEFT_ALT LEFT_GUI  &mt LEFT_SHIFT SPACE    &kp ENTER  &mo 0            &mo 2        &kp ESCAPE
