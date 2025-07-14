@@ -34,11 +34,11 @@
 
         Sym_Nav_Layer {
             bindings = <
-&kp LG(DOT)     &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                                                      &kp F6           &kp F7         &kp F8        &kp F9         &kp F10            &kp GLOBE
-&kp TAB         &kp TAB           &kp AT_SIGN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                                    &kp EQUAL        &kp PAGE_UP    &kp UP_ARROW  &kp PAGE_DOWN  &kp LC(BACKSLASH)  &kp BSLH
-&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                                   &kp BACKSPACE    &kp LEFT       &kp DOWN      &kp RIGHT      &kp MINUS          &kp LC(X)
-&kp RCTRL       &kp CARET         &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp PRINTSCREEN        &kp LC(Z)               &kp LC(Y)    &kp ESCAPE       &kp DEL        &kp COLON     &kp SEMI       &kp BACKSPACE      &kp DOUBLE_QUOTES
-                                                     &kp LALT              &kp ESCAPE             &mt LEFT_ALT LEFT_GUI  &mt LEFT_SHIFT SPACE    &lt 2 ENTER  &lt 0 BACKSPACE  &kp BACKSPACE  &kp ESCAPE
+&kp LG(DOT)     &kp F1            &kp F2             &kp F3                &kp F4                 &kt F5                                                      &kp F6           &kp F7          &kp F8          &kp F9         &kp F10            &kp GLOBE
+&kp TAB         &kp TAB           &kp AT_SIGN        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS                                                    &kp EQUAL        &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN  &kp LC(BACKSLASH)  &kp BSLH
+&kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp MINUS                                                   &kp BACKSPACE    &kp LEFT        &kp DOWN        &kp RIGHT      &kp MINUS          &kp LC(X)
+&kp RCTRL       &kp CARET         &kp AMPS           &kp LESS_THAN         &kp GREATER_THAN       &kp PRINTSCREEN        &kp LC(Z)               &kp LC(Y)    &kp ESCAPE       &kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp SEMI       &kp BACKSPACE      &kp DOUBLE_QUOTES
+                                                     &kp LALT              &kp ESCAPE             &mt LEFT_ALT LEFT_GUI  &mt LEFT_SHIFT SPACE    &lt 2 ENTER  &lt 0 BACKSPACE  &kp BACKSPACE   &kp ESCAPE
             >;
 
             label = "Sym_Nav";
