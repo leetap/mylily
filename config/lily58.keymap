@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -47,10 +48,10 @@
         macro_layer {
             display-name = "Macro";
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &none   &none   &none
-&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                         &none            &none              &none       &none   &none   &none
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp NUMBER_6     &kp N7             &kp N8      &kp N9  &kp N0  &kp BACKSPACE
-&kp LCTRL       &none         &none         &none         &none         &none         &none    &none  &none            &none              &none       &none   &none   &none
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE  &none            &none   &none
+&bt BT_CLR_ALL  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                         &none            &mkp MB1           &mkp MB3    &mkp MB2         &none   &none
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp NUMBER_6     &kp N7             &kp N8      &kp N9           &kp N0  &kp BACKSPACE
+&kp LCTRL       &none         &none         &none         &none         &none         &none    &none  &none            &msc SCRL_LEFT     &none       &msc SCRL_RIGHT  &none   &none
                                             &none         &none         &none         &none    &none  &none            &none              &none
             >;
 
